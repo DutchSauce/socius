@@ -4,7 +4,7 @@ import { Text } from "../../../atoms/text";
 
 export default function Givermening(){
     return(
-        <div className="text-center w-72">
+        <div className="text-center w-44">
             <IconGivermening />
             <Bar color="blue" activeBars="3" />
             <br />

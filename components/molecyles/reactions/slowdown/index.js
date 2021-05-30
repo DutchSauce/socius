@@ -4,7 +4,7 @@ import { Text } from "../../../atoms/text";
 
 export default function Slowdown(){
     return(
-        <div className="text-center w-72">
+        <div className="text-center w-44">
             <IconSlowdown />
             <Bar color="yellow" activeBars="2" />
             <br />

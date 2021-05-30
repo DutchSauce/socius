@@ -7,8 +7,8 @@ export default function Slowdown() {
       <Image
         src="/images/slowdown.png"
         alt="Picture of the author"
-        width={105}
-        height={105}
+        width={65}
+        height={65}
       />
       
     </>

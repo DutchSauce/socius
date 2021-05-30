@@ -4,7 +4,7 @@ import { Text } from "../../../atoms/text";
 
 export default function Vildmeddet(){
     return(
-        <div className="text-center w-72">
+        <div className="text-center w-44">
             <IconVildmeddet />
             <Bar color="green" activeBars="4" />
             <br />

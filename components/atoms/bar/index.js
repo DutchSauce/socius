@@ -6,7 +6,7 @@ export default function Bar(props){
    return <Image
         src={`/images/bar-${color}-${activeBars}.png`}
         alt="Picture of the author"
-        width={105}
-        height={105}
+        width={65}
+        height={65}
       />
 }

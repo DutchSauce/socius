@@ -1,14 +1,14 @@
 import Image from 'next/image'
 
-export default function Givermening() {
+export default function Pause() {
   return (
     <>
       
       <Image
-        src="/images/givermening.png"
+        src="/images/pausebar.png"
         alt="Picture of the author"
-        width={65}
-        height={65}
+        width={121}
+        height={76}
       />
       
     </>

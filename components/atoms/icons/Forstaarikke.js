@@ -7,8 +7,8 @@ export default function Forstaarikke() {
       <Image
         src="/images/forstaarikke.png"
         alt="Picture of the author"
-        width={105}
-        height={105}
+        width={65}
+        height={65}
       />
       
     </>
