@@ -4,9 +4,9 @@ import { Text } from "../../../atoms/text";
 
 export default function Givermening(){
     return(
-        <div className="text-center w-96">
+        <div className="text-center w-72">
             <IconGivermening />
-            <Bar color="yellow" activeBars="1" />
+            <Bar color="blue" activeBars="3" />
             <br />
             <Text>Giver mening</Text>
         </div>
