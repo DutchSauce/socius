@@ -21,12 +21,22 @@ module.exports = {
       gray: colors.coolGray,
       red: colors.red,
       yellow: colors.amber,
-      orange: colors.orange,
       green: colors.emerald,
       blue: colors.blue,
       indigo: colors.indigo,
-      purple: colors.violet,
       pink: colors.pink,
+
+      purple: {
+        light: '#8C3F78',
+        dark: '#370764',
+      },
+
+      orange: {
+        light: '#F27405',
+        dark: '#CB8871',
+      },
+    
+      
     },
     spacing: {
       px: '1px',

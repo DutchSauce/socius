@@ -8,7 +8,7 @@ export default function Givermening(){
             <IconGivermening />
             <Bar color="blue" activeBars="3" />
             <br />
-            <Text className="uppercase">Giver mening</Text>
+            <Text className="uppercase text-sm">Giver mening</Text>
         </div>
     )
 }

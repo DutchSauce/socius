@@ -8,7 +8,7 @@ export default function Vildmeddet(){
             <IconVildmeddet />
             <Bar color="green" activeBars="4" />
             <br />
-            <Text className="uppercase">Er vild med det</Text>
+            <Text className="uppercase text-sm">Er vild med det</Text>
         </div>
     )
 }
