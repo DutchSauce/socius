@@ -13,7 +13,7 @@ import Vildmeddet from "../../molecyles/reactions/vildmeddet";
 
 export default function ReactionBar() {
     return (
-        <div className="flex justify-between px-16 text-white font-semibold py-6">
+        <div className="flex justify-between px-16 text-white font-semibold py-2.5">
             <div className="flex">
                 <Slowdown />
                 <Forstaarikke />

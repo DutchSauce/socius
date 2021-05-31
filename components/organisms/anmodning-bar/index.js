@@ -4,7 +4,7 @@ import { Text } from "../../atoms/text";
 
 export default function AnmodningBar() {
     return (
-        <div className="flex flex-row text-white py-6">
+        <div className="flex flex-row text-white py-1">
             <div className="flex justify-between w-full max-w-3xl ml-16 bg-white bg-opacity-25 rounded-xl p-4">
                 <div className="flex flex-col justify-center items-center">
                     <Clock color="white" size="42" />
