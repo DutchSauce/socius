@@ -8,7 +8,7 @@ export default function Forstaarikke(){
             <IconForstaarikke />
             <Bar color="yellow" activeBars="1" />
             <br />
-            <Text>Forstår ikke</Text>
+            <Text className="uppercase">Forstår ikke</Text>
         </div>
     )
 }

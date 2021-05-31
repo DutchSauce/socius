@@ -8,7 +8,7 @@ export default function Slowdown(){
             <IconSlowdown />
             <Bar color="yellow" activeBars="2" />
             <br />
-            <Text>Det går for stærkt</Text>
+            <Text className="uppercase">Det går for stærkt</Text>
         </div>
     )
 }

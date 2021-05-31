@@ -21,7 +21,7 @@ export default function AnmodningBar() {
                 </div>
             </div>
             <div>
-                <Text>+3</Text>
+                <Text className="text-7xl font-sans font-bold">+3</Text>
             </div>
         </div>
     )
