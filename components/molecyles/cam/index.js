@@ -6,8 +6,8 @@ export default function Cam(props) {
     } = props;
 
     return (
-        <div className="bg-red-200 h-32">
-            {/* <Image src={image} width="300" height="180"  objectFit="cover" /> */}
+        <div className="h-32">
+            {<Image src={image} width="300" height="180"  objectFit="cover" />}
 
         </div>
     )

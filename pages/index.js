@@ -108,16 +108,6 @@ export default function Home() {
     },
     {
       name: "André",
-      image: "/images/profiles/17.jpg",
-      role: "deltager"
-    },
-    {
-      name: "André",
-      image: "/images/profiles/17.jpg",
-      role: "deltager"
-    },
-    {
-      name: "André",
       image: "/images/profiles/25.jpg",
       role: "vært"
     },
