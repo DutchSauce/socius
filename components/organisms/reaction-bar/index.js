@@ -22,13 +22,13 @@ export default function ReactionBar() {
                 <Givermening />
                 <Vildmeddet />
             </div> 
-            <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-0 w-64">
-                <Pause />
-                <Lobbyknap />
-                <Video />
-                <Mute />
-                <Deltager />
-                <Afslut />  
+            <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-1 cursor-pointer">
+                <Pause titel="PAUSE" />
+                <Lobbyknap titel="LOBBY" />
+                <Video titel="STOP VIDEO" />
+                <Mute titel="MUTE" />
+                <Deltager titel="DELGAGER" />
+                <Afslut titel="AFSLUT" />  
             </div>
         </div>
     )

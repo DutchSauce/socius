@@ -1,16 +1,19 @@
 import Image from 'next/image'
 
-export default function Afslut() {
+export default function Afslut(props) {
+  const { titel, className } = props
   return (
-    <>
-      
+    <div className="bg-white bg-opacity-50 rounded-lg text-center text-xs shadow-md">
+
       <Image
-        src="/images/afslutbar.png"
+        src="/images/icons/afslutopkaldicon.png"
         alt="Picture of the author"
-        width={121}
-        height={76}
+        width={32}
+        height={21}
       />
-      
-    </>
+      <br />
+      {titel}
+
+    </div>
   )
 }
