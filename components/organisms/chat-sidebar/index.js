@@ -13,15 +13,19 @@ export default function ChatSidebar(props) {
             <div className="flex flex-row">
                 <input className="border-2 rounded-xl border-purple-dark p-3 bottom-0" placeholder="Skriv en besked..." />
                 <div className="flex flex-col">
-                    <div className="border-2 ">
+                    <div className="border-2 rounded-lg border-purple-dark p-1">
                         <Image 
                             src="/images/icons/chat_send_icon.png"
-                            width="15"
-                            height="1"
+                            width="20"
+                            height="15"
                         />
                     </div>
                     <div>
-
+                    <Image 
+                            src="/images/icons/chat_send_icon.png"
+                            width="20"
+                            height="15"
+                        />
                     </div>
                 </div>
 
