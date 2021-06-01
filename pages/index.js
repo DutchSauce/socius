@@ -7,107 +7,122 @@ import PageTemplate from "../components/templates/PageTemplate";
 export default function Home() {
   const deltagere = [
     {
-      name: "André",
+      name: "André Hørslev Dijkuizen",
       image: "/images/profiles/1.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Martin Tu Lan Nguyen",
       image: "/images/profiles/2.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Frederik Harms Christensen",
       image: "/images/profiles/3.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Tanja Knudsen",
       image: "/images/profiles/4.png",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Mark Landvedt Reberholt",
       image: "/images/profiles/5.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Lise Jørgensen",
       image: "/images/profiles/19.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Britney Holse",
       image: "/images/profiles/20.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Aura Mohammed",
       image: "/images/profiles/21.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Nadine Li",
       image: "/images/profiles/6.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Jens Phili",
       image: "/images/profiles/7.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Christian Nielsen",
       image: "/images/profiles/8.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Camilla Jensen",
       image: "/images/profiles/9.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Omar Al-Badri",
       image: "/images/profiles/10.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Ida Olsen",
       image: "/images/profiles/11.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Gitte Frandsen",
       image: "/images/profiles/12.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Jack Andreasen",
       image: "/images/profiles/13.png",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Jens Hansen",
       image: "/images/profiles/16.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Anne-Mone Brix",
       image: "/images/profiles/14.png",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Magnus Pedersen",
       image: "/images/profiles/15.jpg",
       role: "deltager"
     },
     {
-      name: "André",
+      name: "Betina Jackson",
       image: "/images/profiles/17.jpg",
       role: "deltager"
     },
     {
       name: "André",
+      image: "/images/profiles/1.jpg",
+      role: "deltager"
+    },
+    {
+      name: "Kim Rex Nielsen",
+      image: "/images/profiles/1.jpg",
+      role: "deltager"
+    },
+    {
+      name: "Anton Andersen",
+      image: "/images/profiles/1.jpg",
+      role: "deltager"
+    },
+    {
+      name: "VÆRT",
       image: "/images/profiles/25.jpg",
       role: "vært"
     },
