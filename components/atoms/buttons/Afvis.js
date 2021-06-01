@@ -5,8 +5,9 @@ export default function Afvis(props){
     return(
         <div className={`flex flex-col justify-center items-center w-24 h-24 bg-red-500 text-white text-center rounded-xl cursor-pointer ${className}`}>
            
+           <div className="rounded-full border-white border-2">
            <X /> 
-                   
+              </div>     
             {titel}
             </div>
     

@@ -17,7 +17,7 @@ export default function ReactionBar() {
             <div className="flex">
                 <Slowdown />
                 <Forstaarikke />
-                <div className="border-r-2 border-white rounded-md">
+                <div className="border-r-2 border-white rounded-md h-24">
                 </div>
                 <Givermening />
                 <Vildmeddet />

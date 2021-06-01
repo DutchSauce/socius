@@ -5,7 +5,7 @@ export default function CamGrid(props) {
     const { deltagere } = props;
     return (
         <div className="flex flex-row bg-white bg-opacity-60">
-            <div className="grid grid-flow-row grid-cols-6 gap-1 w-full px-12 py-1">
+            <div className="grid grid-flow-row grid-cols-6 gap-1 w-full pl-12 pr-2 py-1">
                 {deltagere.map((deltager, i) => {
                     return (
                         <div>
