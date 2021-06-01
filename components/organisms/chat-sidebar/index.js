@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ChatSidebar(props) {
     const { open } = props;
 
@@ -9,10 +11,18 @@ export default function ChatSidebar(props) {
             <h2 className="uppercase text-purple-dark text-center text-3xl font-bold">Fælles chat</h2>
             <div className="uppercase text-center text-xs">Opdateret netop nu</div>
             <div className="flex flex-row">
-                <input className="border-2 rounded-xl border-purple-dark" placeholder="Skriv en besked..." />
+                <input className="border-2 rounded-xl border-purple-dark p-3 bottom-0" placeholder="Skriv en besked..." />
                 <div className="flex flex-col">
-                    <div></div>
+                    <div className="border-2 ">
+                        <Image 
+                            src="/images/icons/chat_send_icon.png"
+                            width="15"
+                            height="1"
+                        />
+                    </div>
+                    <div>
 
+                    </div>
                 </div>
 
             </div>
