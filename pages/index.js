@@ -1,5 +1,6 @@
 import AnmodningBar from "../components/organisms/anmodning-bar";
 import CamGrid from "../components/organisms/camgrid";
+import ChatSidebar from "../components/organisms/chat-sidebar";
 import ReactionBar from "../components/organisms/reaction-bar";
 import PageTemplate from "../components/templates/PageTemplate";
 
