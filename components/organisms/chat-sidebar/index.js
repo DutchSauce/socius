@@ -29,9 +29,9 @@ export default function ChatSidebar(props) {
     ]
     const beskeder = [
         {
-                userImage: "/images/profiles/5.jpg",
-                message: "Hej😁",
-                name: "Mark Landtved Reberholt"
+                userImage: "/images/profiles/25.jpg",
+                message: "Hej alle sammen og velkommen til!😁",
+                name: "Karen Pedersen (Vært)"
             }
     ]
 
