@@ -1,9 +1,16 @@
 import Image from "next/image";
 
-export default function Message(props) {
+export default function Besked(props){
     const { userImage, message, name } = props;
     return (
         <div className="flex flex-row my-2 items-center">
+            
+            <div className="p-2 bg-orange-light text-white w-full rounded-lg ml-2 mr-2 text-right">
+               <div className="opacity-60 text-xs">
+                {name}
+                </div>
+                {message}
+            </div>
             <div className="rounded-full h-8 w-8 relative flex-shrink-0">
                 <Image
                     src={userImage}
@@ -12,12 +19,6 @@ export default function Message(props) {
                     className="rounded-full flex-shrink-0"
 
                 />
-            </div>
-            <div className="p-2 bg-purple-light text-white w-full rounded-lg ml-2 mr-2">
-               <div className="opacity-60 text-xs">
-                {name}
-                </div>
-                {message}
             </div>
         </div>
     )

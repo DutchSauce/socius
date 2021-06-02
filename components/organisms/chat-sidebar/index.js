@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Message from "../../molecyles/message";
+import Besked from "../../molecyles/message/besked";
 
 export default function ChatSidebar(props) {
     const { open } = props;
@@ -7,16 +8,31 @@ export default function ChatSidebar(props) {
     const messages = [
         {
             userImage: "/images/profiles/1.jpg",
-            message: "Hej med jer!"
+            message: "Hej med jer!🤩",
+            name: "André Hørslev Dijkhuizen"
         },
         {
             userImage: "/images/profiles/17.jpg",
-            message: "Hej"
+            message: "Hej",
+            name: "Betina Jackson"
         },
         {
             userImage: "/images/profiles/6.jpg",
-            message: "Jooo!"
-        }
+            message: "Heeyyy⭐️💕",
+            name: "Nadine Li"
+        },
+        {
+            userImage: "/images/profiles/23.jpg",
+            message: "Hej",
+            name: "Kim Rex Nielsen"
+        }, 
+    ]
+    const beskeder = [
+        {
+                userImage: "/images/profiles/5.jpg",
+                message: "Hej😁",
+                name: "Mark Landtved Reberholt"
+            }
     ]
 
     return (
@@ -29,6 +45,17 @@ export default function ChatSidebar(props) {
                         return <Message 
                         key={i}
                         userImage={msg.userImage}
+                        name={msg.name}
+                        message={msg.message}
+                        />
+                    })}
+                </div>
+                <div className="mt-1">
+                    {beskeder.map((msg,i)=>{
+                        return <Besked 
+                        key={i}
+                        userImage={msg.userImage}
+                        name={msg.name}
                         message={msg.message}
                         />
                     })}
@@ -37,14 +64,14 @@ export default function ChatSidebar(props) {
             <div className="flex flex-row justify-center gap-1">
                 <input className="border-2 rounded-xl border-purple-dark p-3 bottom-0" placeholder="Skriv en besked..." />
                 <div className="flex flex-col gap-1">
-                    <div className="border-2 rounded-lg border-purple-dark p-1">
+                    <div className="border-2 rounded-lg border-purple-dark p-1 cursor-pointer">
                         <Image
                             src="/images/icons/chat_send_icon.png"
                             width="20"
                             height="15"
                         />
                     </div>
-                    <div className="border-2 rounded-lg border-purple-dark p-1">
+                    <div className="border-2 rounded-lg border-purple-dark p-1 cursor-pointer">
                         <Image
                             src="/images/icons/chat_reactions_icon.png"
                             width="20"
