@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Message from "../../molecyles/message";
-import Besked from "../../molecyles/message/besked";
+import Besked from "../../molecyles/besked";
 
 export default function ChatSidebar(props) {
     const { open } = props;
