@@ -34,9 +34,9 @@ export default function ChatSidebar(props) {
                     })}
                 </div>
             </div>
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-row justify-center gap-1">
                 <input className="border-2 rounded-xl border-purple-dark p-3 bottom-0" placeholder="Skriv en besked..." />
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-1">
                     <div className="border-2 rounded-lg border-purple-dark p-1">
                         <Image
                             src="/images/icons/chat_send_icon.png"
@@ -44,9 +44,9 @@ export default function ChatSidebar(props) {
                             height="15"
                         />
                     </div>
-                    <div>
+                    <div className="border-2 rounded-lg border-purple-dark p-1">
                         <Image
-                            src="/images/icons/chat_send_icon.png"
+                            src="/images/icons/chat_reactions_icon.png"
                             width="20"
                             height="15"
                         />

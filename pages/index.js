@@ -109,18 +109,18 @@ export default function Home() {
       role: "deltager"
     },
     {
-      name: "André",
-      image: "/images/profiles/1.jpg",
+      name: "Kala Ghoda",
+      image: "/images/profiles/22.jpg",
       role: "deltager"
     },
     {
       name: "Kim Rex Nielsen",
-      image: "/images/profiles/1.jpg",
+      image: "/images/profiles/23.jpg",
       role: "deltager"
     },
     {
       name: "Anton Andersen",
-      image: "/images/profiles/1.jpg",
+      image: "/images/profiles/24.jpg",
       role: "deltager"
     },
     {
